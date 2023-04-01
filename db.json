@@ -1,9 +1,22 @@
 {
-  "titles": [
+  "components": [
     {
-      "id": 1,
-      "html": "<h2 class=\"title-01\">Título 01<strong>sit dolor</strong></h2>",
-      "css": ".title-01 {\ntext-align: center;\nfont-size: 2.8em;\ncolor: var(--primary-color);\nfont-weight: normal;\n}\n\n.title-01 strong {\nfont-weight: bold;\ncolor: var(--dark);\n}"
+      "titles": [
+        {
+          "id": 1,
+          "title": "Title 01",
+          "html": "<h2 class=\"title-01\">Título 01<strong>sit dolor</strong></h2>",
+          "css": ".title-01 {\ntext-align: center;\nfont-size: 2.8em;\ncolor: var(--primary-color);\nfont-weight: normal;\n}\n\n.title-01 strong {\nfont-weight: bold;\ncolor: var(--dark);\n}"
+        }
+      ],
+      "buttons": [
+        {
+          "id": 1,
+          "title": "Modelo 01",
+          "html": "<a class=\"btn btn--mod1\" href=\"<?=$url?>button_modelo_1\" title=\"BUTTON_MODELO_1\">BUTTON_MODELO_1</a>",
+          "css": ".btn--mod1 {\nposition: relative;\n}\n\n.btn--mod1:hover {\nbackground-color: var(--dark);\n}\n\n.btn--mod1:before,\n.btn--mod1:after {\ncontent: '';\nposition: absolute;\ntop: 0;\nleft: 0;\nwidth: 100%;\nheight: 100%;\nz-index: -1;\nopacity: 1;\ntransition: all 1s ease;\n}\n\n.btn--mod1:before {\nborder-radius: 3px;\nbackground-color: #ccc;\ntransform: translate(7px, 7px);\n}\n\n.btn--mod1:after {\nborder-radius: 3px;\nbackground-color: #444;\ntransform: translate(-7px, -7px);\n}\n\n.btn--mod1:hover:before,\n.btn--mod1:hover:after {\nopacity: 0;\ntransform: translate(0)\n}\n"
+        }
+      ]
     }
   ]
 }
