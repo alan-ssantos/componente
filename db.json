@@ -1,9 +1,7 @@
-{
-  "titles": [
-    {
-      "id": 1,
-      "html": "<h2 class=\"title-01\">Título 01<strong>sit dolor</strong></h2>",
-      "css": ".title-01 { text-align: center; font-size: 2.8em; color: var(--primary-color); font-weight: normal; } .title-01 strong { font-weight: bold; color: var(--dark); }"
-    }
-  ]
-}
+[
+  {
+    "id": 1,
+    "html": "<h2 class=\"title-01\">Título 01<strong>sit dolor</strong></h2>",
+    "css": ".title-01 {\ntext-align: center;\nfont-size: 2.8em;\ncolor: var(--primary-color);\nfont-weight: normal;\n}\n\n.title-01 strong {\nfont-weight: bold;\ncolor: var(--dark);\n}"
+  }
+]
