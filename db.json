@@ -1,5 +1,5 @@
 {
   "titles": [
-    { "id": 1, "html": "<h2 class=\"title-01\">Título 01<strong>sit dolor</strong></h2>", "css": ".title-01 {\ttext-align: center;\tfont-size: 2.8em;\tcolor: var(--primary-color);\tfont-weight: normal;}\n\n.title-01 strong{\tfont-weight: bold;\tcolor: var(--dark);}"}         
+    { "id": 1, "html": "<h2 class=\"title-01\">Título 01<strong>sit dolor</strong></h2>", "css": ".title-01 {\ttext-align: center;\tfont-size: 2.8em;\tcolor: var(--primary-color);\tfont-weight: normal;}\n\n.title-01 strong{\tfont-weight: bold;\tcolor: var(--dark);}"},     
   ]
 }
