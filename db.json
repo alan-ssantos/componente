@@ -8,8 +8,8 @@
           "html": "<h2 class=\"title-01\">Título 01<strong>sit dolor</strong></h2>",
           "css": ".title-01 {\ntext-align: center;\nfont-size: 2.8em;\ncolor: var(--primary-color);\nfont-weight: normal;\n}\n\n.title-01 strong {\nfont-weight: bold;\ncolor: var(--dark);\n}"
         }
-      ],
-    }
+      ]
+    },
     {
       "buttons": [
         {
